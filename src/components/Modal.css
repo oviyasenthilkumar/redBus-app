@@ -1,0 +1,85 @@
+/* Modal.css */
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+  }
+  
+  .modal-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 533px;
+    height: 100%;
+    background: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+    transform: translateX(100%);
+    animation: slide-in 0.3s forwards;
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .modal-content {
+    padding: 20px;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-icon {
+    cursor: pointer;
+  }
+  .passengerForm{
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+  }
+  .passengerForm .passengerInput,
+  .passengerForm .passengerInput2 {
+    margin-bottom: 15px;
+  }
+  
+  .passengerFlex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .paymentProcess .passengerFlex {
+    justify-content: space-between;
+  }
+  
+  .TotalAmt {
+    margin-right: 10px;
+  }
+  
+  .PayBtn {
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 40%;
+    padding: 8px ;
+    text-align: center;
+    background-color: #d84e55;
+    color: #fff;
+    border: none;
+  }
+  
+  .PayBtn:hover {
+    background-color: #e26066;
+  }

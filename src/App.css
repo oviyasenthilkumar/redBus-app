@@ -1,0 +1,797 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+/* header */
+.dummy{
+  height: 10vh;
+}
+.header{
+  height: 13vh;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Montserrat";
+ z-index: 1000;
+ position: fixed;
+}
+.logo{
+  width: 70px;
+}
+.logo:hover{
+  cursor: pointer;
+}
+.header_ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;  
+}
+.header_ul_li1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 20px 0 0;
+  font-size: 12px;
+  font-weight: 500;
+}
+.headImg1 img, .headImg1 img, .logo img, .cardLogo img{
+  width: 100%;
+  height: 100%;
+}
+.headImg1{
+  width: 40px;
+  height: 30px;
+  filter: brightness(0) invert(1);
+  margin-left: 12px;
+  
+}
+.dateTable{
+  position: absolute;
+  top: 7rem;
+}
+.headImg2{
+  width: 40px;
+  height: 30px;
+}
+.header_ul_li2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:8px 10px;
+  transition: all 0.3s linear;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(42, 42, 42);
+}
+.header_ul_li2 span{
+  padding: 0 8px;
+}
+.header_ul_li2:hover{
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 55px rgba(0,0,0,.01);
+  background-color: rgba(0,0,0,.1);
+  border-radius: 5px;
+ 
+}
+.header_ul2{
+  margin-left: 35rem;
+}
+.busTicket{
+  border: 1px solid #d84e55;
+  background-color:  #d84e55;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.trainTicket{
+  margin-left: 20px;
+  padding: 10px;
+  transition: all 0.3s linear;
+}
+.trainImg{
+  filter: brightness(0);
+  margin-left: 15px;
+  padding: 5px;
+}
+.trainTicket:hover{
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 10px rgba(32, 32, 32, 0.252);
+  background-color: #84848430;
+  border-radius: 5px;
+}
+.trainTicket:hover .trainImg{
+  filter: brightness(1);
+}
+/* banner */
+.banner{
+  padding-top: 20rem;
+  background: url(../public/redBusImg/WebHomeBanner1.webp)  ;
+  height: 74vh;
+  width: 100%;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.heading{
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  top: 5rem;
+  left: 25rem;
+}
+.inputBoxes{
+  position: absolute;
+  top: 26%;
+  left: 18%;
+  background-color: #fff;
+}
+.input{
+  background-color: #fff;
+}
+.css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input.css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input.css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input {
+  font: inherit;
+    letter-spacing: inherit;
+    color: currentColor;
+    padding: 4px 0 5px;
+    border: 0;
+    box-sizing: content-box;
+    background:#fff !important;
+    height: 1.4375em;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0;
+    width: 166px;
+    -webkit-animation-name: mui-auto-fill-cancel;
+    animation-name: mui-auto-fill-cancel;
+    -webkit-animation-duration: 10ms;
+    animation-duration: 10ms;
+    padding-top: 25px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+}
+
+.content{
+  width: 80%;
+  margin: auto;
+ 
+}
+
+.ban-2{
+  width: 100%;
+  position: relative;
+}
+
+.ban1Img{
+ 
+  width: 100%;
+  height: 100px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 0 ;
+}
+.ban2Img{
+  position: absolute;
+  right: 1rem;
+ top: 12px;
+  width: 5%;
+  height: 15px;
+}
+/* card */
+.buses{
+  display: flex;
+  flex-wrap: wrap;
+  border: none; 
+  border-radius: 15px ;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+
+  margin: 10px 15px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.busCards{
+ 
+  display: flex;
+  flex-direction: column;
+ 
+  justify-content: center;
+  align-items: center;
+ 
+  font-family: "Montserrat";
+}
+.govtBus{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat";
+}
+.govtBus h1{
+  font-size: 40px;
+  font-weight: 400;
+  margin: 20px 0 30px;
+}
+.cardHeading span{
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #007b2d;;
+  color: #fff;
+  padding: 2px;
+  margin-left: 2rem;
+}
+.cardHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardHeading{
+  font-size: 24px;
+  font-weight: bold;
+}
+.cardDescription_foot{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e3e3e3a0;
+  width: 97%;
+  margin: auto;
+  border-radius: 5px 5px 0 0;
+
+}
+.cardLogo{
+  width: 100px;
+  height: 80px;
+  padding: 5px;
+}
+.cardDescription{
+  text-align: center;
+}
+.card-des{
+  padding: 10px 30px;
+  font-size: 19px;
+}
+.cardFooter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  width: 96%;
+  border-radius:0 0 10px  10px ;
+  position: absolute;
+  bottom: -30px;
+  left: 10px;
+
+}
+/* next section train */
+.trainbg{
+  background: url(../public/redBusImg/aboutUsImg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about{
+  margin: 3rem 0;
+}
+.trainSymbolCnt{
+  display: flex;
+  align-items: center;
+  color: rgb(216, 78, 85);
+  width: 30%;
+  justify-content: space-between;
+  margin: 2rem 0 ;
+  
+}
+.trainSymbolCnt img{
+  width: 50px;
+  height: 40px;
+}
+.trainSymbol{
+  position: relative;
+}
+.trainSymbol::after{
+  content: "";
+  height: 2px;
+  display: inline-flex;
+  width: 30%;
+  background-color: rgb(216, 78, 85);
+  position: absolute;
+  bottom: -10px;
+}
+.row{
+  display: flex;
+}
+.about h2{
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  color: rgb(29, 29, 29);
+  width: 34.5rem;
+}
+.abt-cnt{
+  width: 550px;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2.125rem;
+  color: rgb(29, 29, 29);
+  margin-bottom: 1.5rem;
+}
+.abt-li{
+  display: flex;
+  gap: 1.5rem;
+  
+  align-items: center;
+}
+.abt-li img{
+  width: 40px;
+  height: 40px;
+  margin: 10px 0;
+}
+.Btns{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(216, 78, 85);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 1rem 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* enjoy the app */
+.enjoyApp{
+  background: url(../public/redBusImg/appInstallbg.svg);
+  height:60vh;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: right center;
+  width: 100%;
+  border-radius: 48px;
+  font-family: "Montserrat"; 
+  
+  display: flex;
+  flex-direction: column; 
+ position: static;
+  padding-left: 2rem;
+}
+.enjoy-header h2{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 3rem;
+  padding-top: 2.5rem;
+}
+.enjoy-box{
+  display: flex;
+  flex-direction: column;
+  
+  /* margin-left: 2rem; */
+  padding: 20px 0 ;
+  border:none;
+  border-radius: 15px;
+  background-color: #fff;
+  width: 30%;
+  padding: 20px;
+}
+.enjoy-box-para{
+  padding: 8px 0;
+  display: flex;
+  color: #000;
+}
+.enjoy-box-para img{
+  padding-right: 10px;
+}
+.enjoy-box-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box1{
+  border-right: 2px solid #ccc;
+  padding-right: 10px;
+}
+.box1 p, .box2 p{
+  padding: 10px 0 15px;
+}
+.box1 h3, .box2 h3{
+  display: flex;
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 10px;
+}
+.boxes{
+  display: flex;
+  align-items: center;
+  padding-top: 3rem;
+}
+.qr-app{
+  display: flex;
+  margin-left: 3rem;
+  color: #fff;
+}
+.qr-app h4{
+  padding-bottom: 20px;
+}
+.apps{
+  margin-left: 3rem;
+}
+/* primo */
+.primo{
+  background: url(../public/redBusImg/primoHome.svg);
+  height: 552px;
+  width: 100%;
+  border-radius: 50px;
+  margin-top: 7rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.primoCnt{
+  height: 552px;
+  width: 40%;
+  background-color: rgb(35, 48, 88);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.primo-icon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  color: #fff;
+  width: 80%;
+  align-content: space-evenly;
+  padding: 20px 0;
+}
+.primo-cnt{
+margin-left: 20px;
+}
+.primo-icon h3{
+  font-size: 24px;
+}
+.primo-icon p{
+  font-size: 20px!important;
+  padding: 10px 0 ;
+}
+.primoIcons{
+  font-size: 41px!important;
+}
+/* country */
+.global{
+  font-family: "Montserrat"; 
+}
+.global h1{
+  margin: 10rem 0 2rem;
+  font-weight: 500;
+  font-size: 40px;
+}
+.country{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.country h4{
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* book bus */
+.bookBus{
+  margin-top: 8rem;
+  font-family: "Montserrat";
+}
+.bookBus h1{
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+.bookBusCnt{
+  color: #1d1d1d;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.clickBtn{
+  border: none;
+  color: rgb(27, 27, 234);
+  background-color: transparent;
+  font-size: 17px;
+  font-weight: 400;
+  cursor: pointer;
+}
+/* deals */
+.deals{
+  margin-top: 8rem;
+  font-family: "Montserrat";
+}
+.deals h1{
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.deals-banner{
+    background: url(../public/redBusImg/redDeals_bg.webp);
+    display: flex;
+    align-items: center;
+   border: 1px solid #ccc;
+   border-radius: 15px;
+   height: 18vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+  padding: 3rem 20px ;
+  justify-content: space-evenly;
+}
+.deal-para{
+  padding-bottom: 2rem;
+}
+.deals-banner img{
+  width: 60px;
+  height: 60px;
+}
+.dealsCnt h3{
+  padding-bottom: 15px;
+  font-size: 1.75rem;
+}
+.dealsCnt h3 span{
+  color: #d84e55;
+}
+.dealsCnt p{
+  font-weight: 500;
+}
+.dealsCnt p span{
+  color: #d84e55;
+  font-size: 1rem;
+}
+.deals-book{
+  padding:12px 15px;
+  background-color: #d84e55;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* accordian */
+.accordian h1{
+  font-size: 40px;
+  font-weight: 500;
+  margin:7rem 0 3rem;
+}
+.accordian ul{
+  list-style-type: none;
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  margin: 20px 0 30px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.accordian ul li::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #d84e55;
+  display: none;
+ transition: all 0.4s linear;
+}
+.accordian ul li:hover::after{
+  cursor: pointer;
+  color: #d84e55;
+  display: block;
+}
+.css-1086bdv-MuiPaper-root-MuiAccordion-root{
+  margin: 10px 0;
+  padding: 10px 0;
+  border-radius: 8px!important;
+}
+.css-1086bdv-MuiPaper-root-MuiAccordion-root::before{
+  opacity: 0!important;
+}
+
+
+.inputBoxes{
+    display: flex;
+    justify-content: space-between;
+    border:none;
+   border-radius: 25px ;
+  
+
+}
+.css-xn6ruc>:not(style) {
+  margin: 8px;
+  width:91ch!important;
+}
+.css-batk84-MuiInputBase-root-MuiFilledInput-root{
+background-color: #fff!important;
+}
+.from,.to{
+  border-right: 1px solid #ccc;
+  width: 30%;
+  padding:30px 20px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.busImg{
+  width: 11%;
+  height: 5px;
+}
+
+.date{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  font-weight:  Montserrat;
+}
+.dateDisplay{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  font-weight: 500;
+}
+.dateDisplayP{
+  color: #6b6b6b;
+}
+
+.calendar{
+  width: 30px!important;
+  height: 20px !important;
+}
+.searchBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center!important;
+  background-color: #d84e55;
+  margin-left: 10px;
+  border-radius: 0 25px 25px 0;
+}
+.searchBtn Button{
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding:20px ;
+ 
+}
+
+/* footer */
+.foot{
+  background-color: #f7f7f7;
+}
+/* default change */
+.footer{
+  padding-top: 2rem;
+  width: 100%;
+  clear: both;
+  font-size: 14px;
+  font-weight: 100;
+  color: #e7e7e7;
+}
+.footRow{
+  padding-top: 4rem;
+ display: flex;
+ justify-content: space-between;
+}
+.places{
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.footer .css-1086bdv-MuiPaper-root-MuiAccordion-root {
+  box-shadow: none;
+  border-bottom: 1px solid #ccc;
+  margin: 0px;
+  border-radius: 0px !important;
+  font-size: 18px;
+  font-weight: bold;
+  color: #373535;
+  background-color: transparent;
+}
+.lists ul{
+  list-style-type:none;
+  
+}
+.footPara{
+  width: 30%;
+
+}
+.footPara img{
+  width: 30%;
+}
+.copyRight p{
+  display: flex;
+  align-items: center;
+  
+}
+.redBusPara{
+  font-size: 15px;
+  padding: 5px 0;
+  color: #3e3e52;
+  gap: 2rem;
+  line-height: 20px;
+}
+.redBusPara li{
+  padding: 5px 0;
+}
+.copyRight{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0 ;
+}
+.css-i4bv87-MuiSvgIcon-root{
+  color: #3e3e52!important;
+  font-size: 20px!important;
+  padding-right: 3px;
+}
+
+.socialIcons{
+  display: flex;
+  cursor: pointer;
+}
+.socialIcons img{
+  padding: 0 6px;
+}
+.upArrow{
+  border: 1px solid #000;
+  padding: 20px 15px;
+  border-radius: 5px;
+  width: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem!important;
+  font-weight: bold!important;
+  position: sticky;
+  margin-left: 70rem;
+  bottom: 2rem;
+ 
+}
+.arrow{
+  position: absolute;
+  bottom: 4px;
+  right: 4px;  
+  animation: arrowAnimation 2s infinite;
+}
+@keyframes arrowAnimation {
+  0% {
+    transform: translateY(0); /* Start position */
+  }
+  50% {
+    transform: translateY(-10px); /* Midway position */
+  }
+  100% {
+    transform: translateY(0); /* End position */
+  }
+}
+.css-batk84-MuiInputBase-root-MuiFilledInput-root::before{
+  border-bottom: 0px!important;
+}
+.css-e4w4as-MuiFormLabel-root-MuiInputLabel-root{
+  font-size: 20px!important;
+}

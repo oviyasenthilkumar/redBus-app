@@ -1,0 +1,172 @@
+[{
+ "id": 1,
+ "name":"KERALA RTC",
+ "malayalam":"കേരള സ്റ്റേറ്റ് റോഡ് ട്രാൻസ്പോർട്ട് കോർപ്പറേഷൻ",
+ "rate":3.85,
+ "des":"940 services including Swift, AC Multiaxle and more",
+ "foot":"Official booking partner of KSRTC",
+ "foot2":"Get 25% concession for senior citizen passengers",
+ "img":"https://st.redbus.in/buslogos/country/ind/logo_group/19393.png"
+},
+{
+    "id": 2,
+    "name":"APSRTC",
+    "rate":3.85,
+    "malayalam":"ఆంధ్రప్రదేశ్ రాష్ట్ర రోడ్డు రవాణా సంస్థ",
+    "des":"1539 services including Garuda, Garuda Plus and more",
+    "foot":"Official booking partner of APSRTC",
+    "foot2":"Get 25% concession for senior citizen passengers",
+    "img":"https://st.redbus.in/buslogos/country/ind/logo_group/10283.png"
+    },
+   {
+    "id": 3,
+    "name":"UPSRTC",
+    "rate":3.94,
+    "malayalam":"उत्तर प्रदेश राज्य सड़क परिवहन निगम",
+    "des":"1738 services including Janrath,Shatabdi and more",
+    "foot":"Official booking partner of UPSRTC",
+    "foot2":"Get 25% concession for senior citizen passengers",
+    "img":"https://st.redbus.in/buslogos/country/ind/logo_group/11044.png"
+   },
+   {
+    "id": 4,
+    "name":"TSRTC",
+    "rate":3.71,
+    "malayalam":"తెలంగాణ రాష్ట్ర రోడ్డు రవాణా సంస్థ",
+    "des":"1450 services including Garuda Plus, Rajdhani and more",
+    "foot":"Official booking partner of TSRTC",
+    "foot2":"Get 25% concession for senior citizen passengers",
+    "img":"https://st.redbus.in/Images/carousel/TSRTC.png"
+   },
+   {
+    "id": 5,
+    "name":"BSRTC",
+    "rate":3.91,
+    "malayalam":"बिहार राज्य रोड ट्रान्सपोर्ट कॉर्पोरेशन",
+    "des":"220 services including Volvo Bus, AC & Non AC Bus and more",
+    "foot":"Official booking partner of BSRTC",
+    "foot2":"Get 25% concession for senior citizen passengers",
+    "img":"https://st.redbus.in/buslogos/country/ind/logo_group/17889.jpg"
+   },
+   {
+    "id": 6,
+    "name":"HRTC",
+    "rate":3.98,
+    "malayalam":"हिमाचल रोड ट्रान्सपोर्ट कॉर्पोरेशन",
+    "des":"480 services including Himgaurav, Himmani and more",
+    "foot":"Official booking partner of HRTC",
+    "foot2":"24*7 customer service (Call or chat)",
+    "img":"https://st.redbus.in/Images/logos/SRTC2.jpg"
+   },
+   {
+    "id": 7,
+    "name":"KAAC Transport",
+    "rate":3.71,
+    "malayalam":"কাৰ্বি আংলং স্বায়ত্ত শাসিত পৰিষদ পৰিবহণ",
+    "des":"10 services including AC & Non AC Bus and more",
+    "foot":"Official booking partner of KAAC Transport",
+    "foot2":"redBus is the most trusted place to book KAAC tickets online",
+    "img":"https://st.redbus.in/Images/logos/KAACLogo.png"
+   },
+   {
+    "id": 8,
+    "name":"JKSRTC",
+    "rate":3.85,
+    "malayalam":"जम्मू और कश्मीर सड़क परिवहन निगम।",
+    "des":"16 services including Volvo Bus, AC & Non AC Bus and more",
+    "foot":"Official booking partner of JKSRTC",
+    "foot2":"redBus is the most trusted place to book JKSRTC tickets online",
+    "img":"https://st.redbus.in/Images/logos/SRTC2.jpg"
+   },
+   {
+    "id": 9,
+    "name":"ASTC",
+    "rate":4.02,
+    "malayalam":"অসম ৰাজ্যিক পৰিবহন নিগম்",
+    "des":"200 services including Volvo Bus, AC & Non AC Bus and more",
+    "foot":"Official booking partner of ASTC",
+    "foot2":"redBus is the most trusted place to book ASTC tickets online",
+    "img":"https://st.redbus.in/buslogos/country/ind/logo_group/16081.png"
+   },
+   {
+    "id": 10,
+    "name":"KTCL",
+    "rate":3.83,
+    "malayalam":"অসম ৰাজ্যিক পৰিবহন নিগম்",
+    "des":"60 services including Volvo Bus, AC & Non AC Bus and more",
+    "foot":"Official booking partner of KTCL",
+    "foot2":"redBus is the most trusted place to book KTCL tickets online",
+    "img":"https://st.redbus.in/Images/logos/ktcl.png"
+   },
+   {
+    "id": 11,
+    "name":"NBSTC",
+    "rate":3.93,
+    "malayalam":"উত্তরবঙ্গ রাজ্য পরিবহন কর্পোরেশন",
+    "des":"30 services including Volvo Bus, AC & Non AC Bus and more",
+    "foot":"Official booking partner of NBSTC",
+    "foot2":"redBus is the most trusted place to book NBSTC tickets online",
+    "img":"https://st.redbus.in/Images/logos/NBSTCLogo.png"
+   },
+   {
+    "id": 12,
+    "name":"CTU RTC",
+    "rate":3.85,
+    "malayalam":"चंडीगढ़ परिवहन उपक्रम",
+    "des":"143 services including Volvo Bus, AC & Non AC Bus and more",
+    "foot":"Official booking partner of CTU RTC",
+    "foot2":"redBus is the most trusted place to book CTU RTC tickets online",
+    "img":"https://st.redbus.in/buslogos/country/ind/logo_group/27455.png"
+   },
+   {
+    "id": 13,
+    "name":"RSRTC",
+    "rate":3.71,
+    "malayalam":"राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन",
+    "des":"6000 services including Volvo Bus, AC & Non AC Bus and more",
+    "foot":"Official booking partner of RSRTC",
+    "foot2":"redBus is the most trusted place to book RSRTC tickets online",
+    "img":"https://st.redbus.in/buslogos/country/ind/logo_group/15499.png"
+   },
+   {
+    "id": 14,
+    "name":"WBTC",
+    "rate":3.96,
+    "malayalam":"পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম",
+    "des":"120 services including Volvo Bus, AC & Non AC Bus and more",
+    "foot":"Official booking partner of WBTC",
+    "foot2":"redBus is the most trusted place to book WBTC tickets online",
+    "img":"https://st.redbus.in/buslogos/country/ind/logo_group/16426.png"
+   },
+   {
+    "id": 15,
+    "name":"SBSTC",
+    "rate":3.95,
+    "malayalam":"দক্ষিণবঙ্গ রাষ্ট্রীয় পরিবহণ সংস্থা",
+    "des":"480 services including Volvo Bus, AC & Non AC Bus and more",
+    "foot":"Official booking partner of SBSTC",
+    "foot2":"redBus is the most trusted place to book SBSTC tickets online",
+    "img":"https://st.redbus.in/buslogos/country/ind/logo_group/16374.png"
+   },
+   {
+    "id": 16,
+    "name":"WBSTC",
+    "rate":3.98,
+    "malayalam":"পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম",
+    "des":"20 services including Volvo Bus, AC & Non AC Bus and more",
+    "foot":"Official booking partner of WBSTC",
+    "foot2":"redBus is the most trusted place to book WBSTC tickets online",
+    "img":"https://st.redbus.in/buslogos/country/ind/logo_group/15443.png"
+   },
+   {
+    "id": 17,
+    "name":"PEPSU",
+    "rate":3.83,
+    "malayalam":"ਪੈਪਸੂ ਰੋਡ ਟਰਾਂਸਪੋਰਟ ਕਾਰਪੋਰੇਸ਼ਨ",
+    "des":"100 services including Volvo Bus, AC & Non AC Bus and more",
+    "foot":"Official booking partner of PEPSU",
+    "foot2":"redBus is the most trusted place to book PEPSU tickets online",
+    "img":"https://st.redbus.in/buslogos/country/ind/logo_group/11060.png"
+   }
+  ]
+
