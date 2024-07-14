@@ -805,5 +805,7 @@ background-color: #fff!important;
 .css-1636szt {
   display: none!important;
 }
-
+.MuiFormLabel-root::after{
+  border-bottom: none;
+}
 
