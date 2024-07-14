@@ -475,7 +475,7 @@ const BookingPg = () => {
                     onChange={handleDepartureTime}
                   />
                   <label for="afternoon">
-                    <img src="../redBusImg/sunset.png" className="filIcon" />
+                    <img src="../redBusImg/sunSet.png" className="filIcon" />
                     12pm to 6pm ({depoEve.length}){" "}
                   </label>
                   <br />
@@ -587,7 +587,7 @@ const BookingPg = () => {
                     onChange={handleArrivalTime}
                   />
                   <label for="evening">
-                    <img src="../redBusImg/sunset.png" className="filIcon" />
+                    <img src="../redBusImg/sunSet.png" className="filIcon" />
                     12pm to 6pm ({arrEve.length}){" "}
                   </label>
                   <br />
